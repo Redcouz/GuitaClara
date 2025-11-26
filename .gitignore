@@ -1,0 +1,38 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build output
+bin/
+dist/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*.ppk
+*.key
+*.crt
+aws_credentials
+*.secret
+config.json
+credentials.json
+
+# Logs
+*.log
+
+git remote add origin https://github.com/Redcouz/GuitaClara.git
